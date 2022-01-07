@@ -215,7 +215,7 @@ body{
     }
     .about{
         background-color: #316835;
-        height: 105vh;
+        height: 100vh;
         position: relative;
         border-radius: 40px;
         top: -1.2vw;
@@ -265,13 +265,13 @@ body{
     .bg{
         background-image: url(birds.png);
         background-color: #f0f1a1;
-        height: 300vh;
+        height: 450vh;
         background-size: 130vw auto;
         margin-top: -16vw;
     }
     .about1{
         background-color: #316835;
-        height: 75vh;
+        height: 72vh;
         position: relative;
         border-radius: 40px;
         top: -1.2vw;
