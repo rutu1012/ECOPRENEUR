@@ -1,0 +1,220 @@
+body{
+    background-image: url(homebg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+    font-family: 'Lato',sans-serif;
+    overflow-x: hidden;
+}
+.eco{
+    color: #316835;
+    font-size: 12vh;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 42vw;
+    margin-top: 7vw;
+    font-family: 'Bebas Neue', cursive;
+}
+.subhead{
+    color: #fff;
+    font-size: 1vw;
+    background-color: #316835;
+    padding-left: 1.2vw;
+    margin-left: 42vw;
+    margin-right: 34.5vw;
+    margin-top: -1.5vw;
+    font-weight: 600;
+    font-family: 'Lato',sans-serif;
+}
+.para{
+    color: #316835;
+    font-family: 'Lato',sans-serif;
+    margin-left: 42vw;
+    margin-right: 33vw;
+    margin-top: 1vw;
+    font-size: 1.1vw;
+}
+.para1{
+    color: #fff;
+    font-family: 'Lato',sans-serif;
+    font-size: 1.3vw;
+    margin-left: 1vw;
+    margin-top: -4vw;
+}
+.btn{
+    margin-top: 0.8vw;
+}
+.btn1{
+    margin-left: 10vw;
+    border: 1.7px #316835 solid;
+    color: #316835;
+    font-weight: 900;
+    border-radius: 8px;
+}
+.btn2{
+    color: #fff;
+    margin-left:1.5vw;
+    font-weight: 800;
+    background-color: #316835;
+    border-radius: 8px;
+}
+.btn1:hover{
+    color: #fff;
+    font-weight: 800;
+    background-color: #316835;
+    border-radius: 8px;
+}
+.btn2:hover{
+    margin-left: 1.5vw;
+    border: 1.7px #316835 solid;
+    background: none;
+    color: #316835;
+    font-weight: 900;
+    border-radius: 8px;
+}
+.about{
+    background-color: #316835;
+    height: 80vh;
+    position: relative;
+    border-radius: 40px;
+    top: -1.2vw;
+    padding-top: 3vw;
+}
+.bg{
+    background-image: url(birds.png);
+    background-color: #f0f1a1;
+    height: 300vh;
+    background-size: 130vw auto;
+    margin-top: 11.5vw;
+}
+.heading {
+    color: #316835;
+    background-color: #fff;
+    font-size: 2.5vw;
+    border-radius: 8px;
+    font-weight: 900;
+    position: relative;
+    margin:auto 30vw;
+    margin-bottom: 3vw;
+  }
+.btn3{
+    margin-left: 39.5vw;
+    border: 1.7px #fff solid;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 8px;
+    margin-top: -3vw;
+}
+.btn4{
+    color: #316835;
+    font-weight: 800;
+    background-color:#fff;
+    border-radius: 8px;
+    margin-top: -3vw;
+}
+.btn3:hover{
+    color: #316835;
+    font-weight: 800;
+    background-color:#fff;
+    border-radius: 8px;
+}
+.btn4:hover{
+    margin-left: 570px;
+    border: 1.7px #fff solid;
+    background: none;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 8px;
+}
+@media only screen and (min-width:1024px) and (max-width:1279px) {
+    .eco{
+        margin-top: 10vw;
+    }
+    .btn3{
+        margin-left: 45vw;
+    }
+}
+@media only screen and (max-width:1023px){
+    html,
+  body {
+    overflow-x: hidden;
+  }
+    body{
+        background-image: url(home_mob.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        font-family: 'Lato',sans-serif;
+    }
+    .para{
+        color: #316835;
+        font-family: 'Lato',sans-serif;
+        margin-left: 45vw;
+        margin-right: 6vw;
+        margin-top: 87vw;
+        font-size: 3.4vw;
+    }
+    .btn1{
+        margin-left: 4vw;
+        border: 1.7px #316835 solid;
+        color: #316835;
+        font-weight: 900;
+        border-radius: 8px;
+        margin-top: 10vw;
+    }
+    .btn2{
+        margin-top: 10vw;
+        color: #fff;
+        margin-left:1.5vw;
+        font-weight: 800;
+        background-color: #316835;
+        border-radius: 8px;
+    }
+    .about{
+        background-color: #316835;
+        height: 105vh;
+        position: relative;
+        border-radius: 40px;
+        top: -1.2vw;
+        padding-top: 3vw;
+    }
+    .heading {
+        color: #316835;
+        background-color: #fff;
+        font-size: 5vw;
+        border-radius: 8px;
+        font-weight: 900;
+        position: relative;
+        margin:auto 10vw;
+        margin-bottom: 5vw;
+      }
+      .btn3{
+        margin-left: 42vw;
+        border: 1.7px #fff solid;
+        color: #fff;
+        font-weight: 900;
+        border-radius: 8px;
+        margin-top: 4vw;
+    }
+    .btn4{
+        color: #316835;
+        font-weight: 800;
+        background-color:#fff;
+        border-radius: 8px;
+        margin-top: -4vw;
+    }
+    .bg{
+        background-image: url(birds.png);
+        background-color: #f0f1a1;
+        height: 300vh;
+        background-size: 130vw auto;
+        margin-top: -16vw;
+    }
+    .about1{
+        background-color: #316835;
+        height: 75vh;
+        position: relative;
+        border-radius: 40px;
+        top: -1.2vw;
+        padding-top: 3vw;
+    }
+    
+}
