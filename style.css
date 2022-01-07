@@ -82,7 +82,7 @@ body{
 .bg{
     background-image: url(birds.png);
     background-color: #f0f1a1;
-    height: 500vh;
+    height: 380vh;
     background-size: 100vw auto;
     margin-top: 11.5vw;
 }
